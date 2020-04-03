@@ -1,7 +1,7 @@
 
 const Discord = require("discord.js")
 const fs = require("fs")
-const config = require("./storage/config.json")
+const config = require("config.json")
 const client = new Discord.Client()
 var prefix = '!'
 
@@ -82,3 +82,4 @@ client.on('messageReactionAdd', (reaction, member) =>{
     
     
 })
+
